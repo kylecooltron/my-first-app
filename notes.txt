@@ -1,0 +1,61 @@
+Type script
+Superset
+Static typing to javascript
+Javascript is dynamically typed
+
+Npm init -y
+Npm install typescript
+
+Typescript compiler
+Npx tsc
+
+Error 
+Npx tsc filename.ts
+
+
+npx tsc --init
+
+strict mode
+
+
+What is Angular?
+Javascript Framework
+Create reactive Single-Page-Applications SPAs
+
+Angular Versioning
+
+ng serve
+
+local host 2400 default
+
+copied file from video into folder
+src app folder > app.component.html
+
+
+cmd: cd Documents\BYU-4\fullstack\my-first-app
+
+ADD BOOTSRAP TO PROJECT
+npm install --save bootstrap@3
+config file to edit: angular.json
+architect > build > styles array > 
+add entry before 
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+
+
+ng generate component servers
+ng g c servers
+
+
+- - - - - - -
+databinding = Communication
+
+string interpolation ( {{ data }})
+property binding [property]="data"
+
+event binding (event)="expression"
+
+two-way-binding [(ngModel)]="data"
+
+
+
+
